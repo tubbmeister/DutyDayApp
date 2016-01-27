@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DisplayMessageActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="@string/hello_world"
+        android:textColor="@color/red"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Was 2 extra hours rest available pre-duty?"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="No!"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/textView1"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="123dp"
+        android:text="Your next earliest duty start is:"
+         android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Earliest start"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/toggleButton1"
+        android:layout_alignEnd="@+id/toggleButton1" />
+
+    <TextView
+        android:id="@+id/newRestartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginRight="92dp"
+        android:layout_marginTop="169dp"
+        android:hint="actual finish time" 
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/isChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/newRestartTime"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_marginBottom="35dp"
+        android:text="TextView" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="YES!"
+        android:textOff="NO!"
+        android:onClick="onToggleClicked"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/dutyendTimeMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/isChecked"
+        android:layout_below="@+id/isChecked"
+        android:layout_marginTop="29dp"
+        android:text="TextView" 
+        android:textSize="20dp"/>
+
+</RelativeLayout>
