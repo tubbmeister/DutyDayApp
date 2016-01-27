@@ -28,7 +28,8 @@
         android:inputType="time"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_gravity="right" />
+        android:layout_gravity="right"
+        android:hint="add total WOCL infringed" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,9 +41,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="text"
         android:ems="10"
-        android:id="@+id/editText2" />
+        android:id="@+id/editText2"
+        android:hint="type number" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -51,4 +53,18 @@
         android:text="Return to Main Page"
         android:onClick="openActivityMain"
         android:id="@+id/returnToMainPage" />
+
+    <Button android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        android:onClick="HandleClick"/>
+
+    <TextView
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textview1"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

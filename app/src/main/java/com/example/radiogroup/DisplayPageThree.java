@@ -4,18 +4,23 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.view.View.OnClickListener;
+import android.widget.EditText;
 
 /**
  * Created by Richard on 27/01/2016.
  */
-public class DisplayPageThree extends Activity {
+public class DisplayPageThree extends Activity  {
 
     protected TextView newRestartTime;
     protected CheckBox toggleButton1;
     protected TextView isChecked;
     protected TextView dutyendTimeMinutes;
+    protected EditText editText2;
+    protected EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,5 +54,19 @@ public class DisplayPageThree extends Activity {
         //intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
 
+    }
+    public void HandleClick(View arg0) {
+        Button btn = (Button)arg0;
+        EditText timezone =(EditText) findViewById(R.id.editText2);
+        TextView tv = (TextView) findViewById(R.id.textview1);
+        // Integer.parseInt(myEditText.getText().toString())
+       // String wocl = Integer.parseInt(editText2.getText().toString());
+       // String timezone=firstcolumn.getText().toString();
+               // message = firstcolumn.getText().toString();
+//convert integer to string for display
+        String WOCL = (editText2.getText().toString());
+        //tv.setText("You pressed " + WOCL);
+        tv.setText(WOCL);
+        //detects button selection  tv.setText("You pressed " + btn.getText());
     }
 }

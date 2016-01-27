@@ -40,7 +40,7 @@ public final class R {
     public static final class id {
         public static final int WOCLno=0x7f09000b;
         public static final int WOCLyes=0x7f09000c;
-        public static final int action_settings=0x7f090029;
+        public static final int action_settings=0x7f09002a;
         public static final int button1=0x7f09001f;
         public static final int dutyendTimeMinutes=0x7f090008;
         public static final int editText=0x7f090025;
@@ -74,6 +74,7 @@ public final class R {
         public static final int textView5=0x7f09001e;
         public static final int textView6=0x7f090024;
         public static final int textView7=0x7f090026;
+        public static final int textview1=0x7f090029;
         public static final int thirdcolumn=0x7f090015;
         public static final int thirdcolumn1=0x7f090017;
         public static final int thirdcolumn2=0x7f090018;
