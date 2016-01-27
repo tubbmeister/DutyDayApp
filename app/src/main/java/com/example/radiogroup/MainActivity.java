@@ -101,6 +101,15 @@ public class MainActivity extends Activity implements OnClickListener {
 		 startActivity(intent);
 		
 	}
+
+	public void openPageThree(View view) {
+		// Do something in response to button
+		Intent intent = new Intent(this, DisplayPageThree.class);
+		String message = "Hello everyone";
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+
+	}
 	public void onClick(View v) {
 		// int myNum;// = 0;
 		int myNum2, restartHours, restartMins;
@@ -117,12 +126,12 @@ public class MainActivity extends Activity implements OnClickListener {
 
 			WOCLYES = 359; // set WOCL to 0600z - must be corrected
 			// displayText.setText((String.valueOf(WOCLYES)));
-			;
+
 		}
 		if (v == WOCLno) {
 			WOCLYES = 299; // 0500z
 			// displayText.setText((String.valueOf(WOCLYES)));
-			;
+
 		}
 
 		if (v == button1) {
@@ -249,7 +258,7 @@ public class MainActivity extends Activity implements OnClickListener {
 				extras.putInt("endtimeMinutes",afinalNumber3);
 				intent.putExtras(extras);
 				String transferTime;
-				transferTime=forthcolumn1.getText().toString();
+				//transferTime=forthcolumn1.getText().toString();
 			//	String sendFinishTime = "Too long a day!";
 			//	intent.putExtra(EXTRA_MESSAGE, transferTime);
 				//Intent intent1 = new Intent(this, DisplayMessageActivity.class);

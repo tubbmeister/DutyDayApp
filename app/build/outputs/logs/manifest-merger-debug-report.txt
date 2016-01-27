@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Du
 		INJECTED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:11:5-35:19
+ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:11:5-40:19
 	android:label
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
@@ -67,3 +67,9 @@ ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Du
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:32:13-64
 	android:name
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:31:13-59
+activity#com.example.radiogroup.DisplayPageThree
+ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:35:9-39:25
+	android:label
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:36:11-65
+	android:name
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\app\src\main\AndroidManifest.xml:35:19-73

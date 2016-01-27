@@ -22,7 +22,7 @@
     <string name="WOCL_no">WOCL 04:59Z?</string>
     <string name="WOCL_yes">WOCL 05:59Z?</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Duty Day second activity v0.2</string>
+    <string name="app_name">Duty Day second activity v0.3</string>
     <string name="enter_Start">Start time</string>
     <string name="hello_world">Maximum Duty Length Exceeded!</string>
     <string name="title_activity_display_message">My Message</string>

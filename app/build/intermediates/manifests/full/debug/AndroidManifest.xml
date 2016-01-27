@@ -31,6 +31,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.radiogroup.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.radiogroup.DisplayPageThree"
+            android:label="@string/title_activity_display_message" />
     </application>
 
 </manifest>
