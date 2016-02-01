@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TableRow
+
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+
+        >
+        <TextView
+            android:id="@+id/firstcolumn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:maxHeight="45dp"
+            android:padding="10dip"
+            android:text="Total Duty Reduction"
+            android:textColor="#890e0e" />
+
+        <TextView
+            android:id="@+id/secondcolumn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:maxHeight="45dp"
+            android:padding="10dip"
+            android:text="Normal Duty Finish"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/secondcolumn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:maxHeight="45dp"
+            android:padding="10dip"
+            android:text="No. Sectors"
+            android:textColor="#890e0e" />
+
+
+    </TableRow>
+        <TableRow
+            android:layout_height="5px"
+            android:background="#BDBDBD" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:layout_span="2" />
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:stretchColumns="1" >
+
+            <EditText
+                android:id="@+id/firstcolumn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:textSize="11sp"
+                android:hint="Type Show Time"
+                android:inputType="number"
+                android:maxHeight="45dp"
+                android:padding="10dip"
+                android:textColor="#000000" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/secondcolumn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:maxHeight="45dp"
+                android:padding="10dip"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/thirdcolumn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:maxHeight="45dp"
+                android:padding="10dip"
+                android:textColor="#000000" />
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>
