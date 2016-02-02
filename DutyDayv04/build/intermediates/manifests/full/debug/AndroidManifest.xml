@@ -38,6 +38,9 @@
         <activity
             android:name="com.example.DutyDayv04.DisplayPageFour"
             android:label="Page 4" />
+        <activity
+            android:name="com.example.DutyDayv04.DateAndTimeSelectorjava"
+            android:label="Date and Time" />
     </application>
 
 </manifest>

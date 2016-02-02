@@ -85,4 +85,26 @@ public class DisplayPageFour extends Activity {
         // tv.setText(WOCL);
         //detects button selection  tv.setText("You pressed " + btn.getText());
     }
+    public void openPageFive(View view) {
+        // Do something in response to button
+        EditText timezone = (EditText) findViewById(R.id.editText);
+        EditText timezone1 = (EditText) findViewById(R.id.editText2);
+        TextView tv = (TextView) findViewById(R.id.textview1);
+        TextView tv1 = (TextView) findViewById(R.id.textView8);
+        // Integer.parseInt(myEditText.getText().toString())
+        // String wocl = Integer.parseInt(editText2.getText().toString());
+        // String timezone=firstcolumn.getText().toString();
+        // message = firstcolumn.getText().toString();
+//convert integer to string for display
+       // String WOCL = (timezone.getText().toString());
+     //   String WOCL1 = (timezone1.getText().toString());
+      //  tv.setText("You pressed " + WOCL);
+      //  tv1.setText("You pressed " + WOCL1);
+
+        Intent intent = new Intent(this, DateAndTimeSelectorjava.class);
+        //String message = "hello Bruce";
+       // intent.putExtra("EXTRA_MESSAGE", numberSender); //sends result from WOCL to page 4
+       // intent.putExtra("EXTRA_MESSAGE1", numberSender1); //sends second result
+        startActivity(intent);
+    }
 }

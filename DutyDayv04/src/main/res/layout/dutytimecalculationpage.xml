@@ -114,4 +114,11 @@
 
 
     </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page 5"
+        android:onClick="openPageFive"
+        android:id="@+id/button" />
 </LinearLayout>

@@ -40,12 +40,14 @@ public final class R {
     public static final class id {
         public static final int WOCLno=0x7f09000b;
         public static final int WOCLyes=0x7f09000c;
-        public static final int action_settings=0x7f09002c;
+        public static final int action_settings=0x7f09002f;
+        public static final int button=0x7f090025;
         public static final int button1=0x7f09001f;
-        public static final int button2=0x7f090029;
+        public static final int button2=0x7f09002c;
+        public static final int datePicker=0x7f090023;
         public static final int dutyendTimeMinutes=0x7f090008;
-        public static final int editText=0x7f090026;
-        public static final int editText2=0x7f090025;
+        public static final int editText=0x7f090029;
+        public static final int editText2=0x7f090028;
         public static final int firstcolumn=0x7f090013;
         public static final int firstcolumn1=0x7f090010;
         public static final int forthcolumn1=0x7f09001b;
@@ -57,7 +59,7 @@ public final class R {
         public static final int numberPicker1=0x7f09000d;
         public static final int pageThree=0x7f090022;
         public static final int radioGroup1=0x7f090009;
-        public static final int returnToMainPage=0x7f090028;
+        public static final int returnToMainPage=0x7f09002b;
         public static final int secondPage=0x7f090020;
         public static final int secondcolumn=0x7f090014;
         public static final int secondcolumn2=0x7f090011;
@@ -67,28 +69,30 @@ public final class R {
         public static final int tableRow2=0x7f09000e;
         public static final int tableRow3=0x7f090016;
         public static final int tableRow4=0x7f09001a;
-        public static final int textView=0x7f090023;
+        public static final int textView=0x7f090026;
         public static final int textView1=0x7f090000;
         public static final int textView2=0x7f090001;
         public static final int textView3=0x7f090003;
         public static final int textView4=0x7f090004;
         public static final int textView5=0x7f09001e;
-        public static final int textView6=0x7f090024;
-        public static final int textView7=0x7f090027;
-        public static final int textView8=0x7f09002b;
-        public static final int textview1=0x7f09002a;
+        public static final int textView6=0x7f090027;
+        public static final int textView7=0x7f09002a;
+        public static final int textView8=0x7f09002e;
+        public static final int textview1=0x7f09002d;
         public static final int thirdcolumn=0x7f090015;
         public static final int thirdcolumn1=0x7f090017;
         public static final int thirdcolumn2=0x7f090018;
         public static final int thirdcolumn3=0x7f090019;
+        public static final int timePicker=0x7f090024;
         public static final int toggleButton1=0x7f090002;
         public static final int toggleButton2=0x7f090007;
     }
     public static final class layout {
         public static final int activity_display_message=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int dutytimecalculationpage=0x7f030002;
-        public static final int timezone_and_wocl=0x7f030003;
+        public static final int dateandtimeselector=0x7f030002;
+        public static final int dutytimecalculationpage=0x7f030003;
+        public static final int timezone_and_wocl=0x7f030004;
     }
     public static final class menu {
         public static final int display_message=0x7f080000;

@@ -43,6 +43,12 @@
 
 
         ></activity>
+
+        <activity android:name=".DateAndTimeSelectorjava"
+            android:label="Date and Time"
+
+
+            ></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Du
 		INJECTED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:11:5-46:19
+ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:11:5-52:19
 	android:label
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
@@ -79,3 +79,9 @@ ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Du
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:42:9-31
 	android:name
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:41:15-68
+activity#com.example.DutyDayv04.DateAndTimeSelectorjava
+ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:47:9-51:25
+	android:label
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:48:13-42
+	android:name
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:47:19-58
