@@ -16,6 +16,7 @@ public class DisplayMessageActivity extends Activity {
 	protected CheckBox toggleButton1;
 	protected TextView isChecked;
 	protected TextView dutyendTimeMinutes;
+	public final static String EXTRA_MESSAGE = "com.example.radiogroup.MESSAGE";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

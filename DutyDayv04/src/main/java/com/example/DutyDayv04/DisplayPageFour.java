@@ -16,15 +16,25 @@ public class DisplayPageFour extends Activity {
 
     protected TextView newRestartTime;
     protected CheckBox toggleButton1;
-    protected TextView isChecked;
+    protected TextView isChecked, thirdcolumn,firstcolumn;
     protected TextView dutyendTimeMinutes;
     protected EditText editText2;
     protected EditText editText;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        String messenger,messenger1;
         setContentView(R.layout.dutytimecalculationpage);
+        firstcolumn = (TextView) findViewById(R.id.firstcolumn);
+        thirdcolumn = (TextView) findViewById(R.id.thirdcolumn);
+        Bundle extras = getIntent().getExtras();
+        messenger = extras.getString("EXTRA_MESSAGE");
+        messenger1 = extras.getString("EXTRA_MESSAGE1");
+        firstcolumn.setText(messenger);
+        thirdcolumn.setText(messenger1);
         // Get the message from the intent
         // Intent intent = getIntent();
         //   String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
@@ -52,6 +62,7 @@ public class DisplayPageFour extends Activity {
         String message = "Hello everyone";
         //intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+        firstcolumn.setText(message);
 
     }
     public void HandleClick(View arg0) {

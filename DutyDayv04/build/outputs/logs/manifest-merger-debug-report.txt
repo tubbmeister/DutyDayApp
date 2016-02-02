@@ -56,7 +56,7 @@ ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Du
 activity#com.example.DutyDayv04.DisplayMessageActivity
 ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:26:9-34:20
 	android:label
-		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:28:13-67
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:28:13-35
 	android:parentActivityName
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:29:13-77
 	android:name
@@ -70,12 +70,12 @@ ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Du
 activity#com.example.DutyDayv04.DisplayPageThree
 ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:35:9-40:16
 	android:label
-		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:36:11-65
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:36:11-33
 	android:name
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:35:19-73
 activity#com.example.DutyDayv04.DisplayPageFour
 ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:41:5-45:21
 	android:label
-		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:42:9-63
+		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:42:9-31
 	android:name
 		ADDED from C:\Users\Richard\Downloads\Android-Sqlite-Database-Tutorial-master\Duty Day second activity v0.2\DutyDayv04\src\main\AndroidManifest.xml:41:15-68
